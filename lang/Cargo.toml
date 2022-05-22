@@ -24,6 +24,7 @@ anchor-debug = [
     "anchor-attribute-state/anchor-debug",
     "anchor-derive-accounts/anchor-debug"
 ]
+no-log-ix-name = []
 
 [dependencies]
 anchor-attribute-access-control = { path = "./attribute/access-control", version = "0.24.2" }
