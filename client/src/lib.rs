@@ -166,6 +166,7 @@ impl Program {
                 encoding: Some(UiAccountEncoding::Base64),
                 data_slice: None,
                 commitment: None,
+                min_context_slot: None,
             },
             with_context: None,
         };
